@@ -1,0 +1,98 @@
+body{
+  font-family: sans-serif;
+  cursor:url('foto.png'), pointer;
+}
+.pags{
+  margin-left:30px;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+}
+header img{
+  width:75px;
+  margin-top:-7.5px;
+}
+input{
+  width:110px;
+  height:15px;
+  font-size:7.5px;
+  margin-right:4px;
+  margin-top:7px;
+}
+button{
+  height:15px;
+  width:15px;
+  font-size:10px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.btn{
+  display: flex;
+  gap:5px;
+  flex-direction: row;
+  margin-top:8px;
+}
+input:focus{
+  outline:none;
+}
+.input{
+  display: flex;
+  flex-direction: row;
+}
+.indice{
+  display: flex;
+  flex-direction: row;
+  font-size:5px;
+  gap:2px;
+  position: absolute;
+  margin-top:-20px;
+  margin-left:-115px;
+}
+.indice:hover{
+  cursor:pointer;
+}
+header img:hover{
+  cursor:pointer;
+}
+i{
+  margin-left:98px;
+  position:absolute;
+  margin-top:10.2px;
+  font-size:8px;
+}
+.p{
+  font-size:10px;
+  text-align: center;
+}
+
+.container div:hover{
+  box-shadow:1.5px 1.5px 3px 0.5px black;
+  transform: scale(1.1);
+}
+.container div{
+  background:#e1e1e1;
+  transition:ease 250ms;
+  border-radius:4px;
+
+}
+.container div img{
+  width:75px;  
+  text-align: center;
+  border-radius:2px;
+}
+.container div p{
+  width:75px;
+  font-size:7.5px;
+  text-align: center;
+}
+.container{
+  display: flex;
+  gap:10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
