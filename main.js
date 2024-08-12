@@ -149,9 +149,11 @@ function botones() {
 
 botones();
 
-window.onbeforeunload = function () {
-  cancion.play();
+window.onbeforeunload = function (e) {
+    cancion.play();
+    return confirm;
 };
+
 
 wii();
 
